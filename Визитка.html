@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Матвеева Светлана — AI решения для бизнеса</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+font-family:Arial;
+background:#04050a;
+color:white;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+header{
+padding:20px 0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:20px;
+font-weight:700;
+}
+
+.logo span{
+color:#8b5cf6;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+padding:100px 0;
+}
+
+h1{
+font-size:70px;
+line-height:0.95;
+margin-bottom:20px;
+}
+
+h1 span{
+color:#8b5cf6;
+}
+
+.hero p{
+font-size:22px;
+color:#cfcfff;
+margin-bottom:30px;
+line-height:1.5;
+}
+
+.btn{
+padding:18px 30px;
+border-radius:14px;
+font-weight:700;
+text-decoration:none;
+margin-right:10px;
+display:inline-block;
+transition:0.3s;
+}
+
+.btn-main{
+background:#8b5cf6;
+box-shadow:0 0 30px rgba(139,92,246,0.6);
+}
+
+.btn-main:hover{
+transform:translateY(-3px);
+box-shadow:0 0 60px rgba(139,92,246,1);
+}
+
+.btn-second{
+border:1px solid #555;
+}
+
+.hero img{
+width:100%;
+border-radius:25px;
+box-shadow:0 0 80px rgba(139,92,246,0.5);
+}
+
+section{
+padding:90px 0;
+}
+
+h2{
+font-size:44px;
+margin-bottom:20px;
+}
+
+.text{
+font-size:20px;
+color:#cfcfff;
+max-width:800px;
+line-height:1.6;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+margin-top:40px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:30px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.1);
+}
+
+.card h3{
+color:#8b5cf6;
+margin-bottom:10px;
+font-size:20px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-top:40px;
+}
+
+.project{
+padding:35px;
+border-radius:20px;
+background:rgba(139,92,246,0.1);
+border:1px solid rgba(139,92,246,0.3);
+}
+
+.cta{
+text-align:center;
+padding:100px;
+background:rgba(139,92,246,0.15);
+border-radius:30px;
+margin-top:60px;
+}
+
+.cta h2{
+font-size:46px;
+margin-bottom:20px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+color:#999;
+}
+
+@media(max-width:900px){
+.hero{grid-template-columns:1fr;}
+.cards{grid-template-columns:1fr;}
+.projects{grid-template-columns:1fr;}
+}
+</style>
+</head>
+
+<body>
+
+<header class="container">
+<div class="logo">Матвеева <span>Светлана</span></div>
+<div>AI • автоматизация • приложения</div>
+</header>
+
+<div class="container hero">
+<div>
+
+<h1>AI и цифровые <span>решения</span> для бизнеса</h1>
+
+<p>
+Создаю сайты, ботов и AI-системы, которые приводят клиентов, автоматизируют процессы
+и превращают обычный бизнес в технологичный.
+</p>
+
+<a href="#contact" class="btn btn-main">Обсудить проект</a>
+<a href="#projects" class="btn btn-second">Смотреть кейсы</a>
+
+</div>
+
+<div>
+<img src="hero.jpg">
+</div>
+</div>
+
+<section class="container">
+<h2>Обо мне</h2>
+
+<p class="text">
+Я — Матвеева Светлана, специалист по AI и цифровым продуктам.
+Разрабатываю решения, которые помогают бизнесу работать быстрее, проще и эффективнее.
+Моя задача — не просто сделать сайт или бота, а создать инструмент,
+который реально используется и приносит результат.
+</p>
+
+</section>
+
+<section class="container">
+<h2>Что я создаю</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Сайты и лендинги</h3>
+<p>Продающие страницы под заявки и клиентов</p>
+</div>
+
+<div class="card">
+<h3>AI-ассистенты</h3>
+<p>Автоматические консультанты для бизнеса</p>
+</div>
+
+<div class="card">
+<h3>Боты</h3>
+<p>Telegram и VK решения под заявки и продажи</p>
+</div>
+
+<div class="card">
+<h3>Веб-приложения</h3>
+<p>Системы с логикой, формами и автоматизацией</p>
+</div>
+
+<div class="card">
+<h3>Мобильные решения</h3>
+<p>Сервисы, работающие как приложение на телефоне</p>
+</div>
+
+<div class="card">
+<h3>AI-приложения</h3>
+<p>Интерактивные сервисы на базе нейросетей</p>
+</div>
+
+</div>
+</section>
+
+<section class="container" id="projects">
+<h2>Проекты</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Сайт для аренды оборудования</h3>
+<p>
+Создан удобный интерфейс с каталогом и заявками.
+Позволяет клиентам быстро выбрать решение и оставить обращение.
+</p>
+</div>
+
+<div class="project">
+<h3>AI-бот для клиентов</h3>
+<p>
+Автоматизирует консультацию, задаёт вопросы и передаёт заявку менеджеру,
+сокращая нагрузку и увеличивая конверсию.
+</p>
+</div>
+
+</div>
+</section>
+
+<section class="container cta" id="contact">
+<h2>Готовы внедрить AI в свой бизнес?</h2>
+
+<p>
+Напишите мне — разберём задачу и предложу решение под ваш проект
+</p>
+
+<br><br>
+
+<a href="https://t.me/USERNAME" class="btn btn-main">Написать в Telegram</a>
+<a href="https://vk.com/USERNAME" class="btn btn-second">VK</a>
+
+</section>
+
+<footer>
+© Матвеева Светлана
+</footer>
+
+</body>
+</html>
